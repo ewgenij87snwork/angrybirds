@@ -66,5 +66,54 @@
 		transform: rotate(-10deg)
 		left: 97.5px
 
+.eye
+	width: 50px
+	height: 50px
+	background: #fff
+	border-radius: 50%
+	position: absolute
+	top: 72.5px 
+	left: 48px
+	&__wrap
+		position: relative
+	&-right
+		left: 98px
+	&__inside
+		position: absolute
+		top: 50%
+		left: 60%
+		transform: translate(-50%, -50%)
+		width: 20px
+		height: 20px
+		background: #000
+		border-radius: 50%
+		&-right
+			left: 40%
+			
+.beak
+	width: 50px
+	height: 50px
+	background: #d5972a
+	transform: rotate(45deg)
+	position: absolute
+	top: 110px
+	left: 73.5px
+	overflow: hidden
+	&:before
+		content: "" 
+		position: fixed
+		height: 1px
+		width: 90px
+		background: #000 
+		top: 6%
+		left: 1%
+		right: 1px
+		transform: rotate(-45deg)
+		
+		
+	
+
+		
+	
 
 
