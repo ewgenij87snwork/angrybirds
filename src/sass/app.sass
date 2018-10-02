@@ -10,23 +10,24 @@
 	position: relative
 	width: 200px
 	height: 200px
-	margin: 20px auto
+	margin: 100px auto
 	
 .forelock
 	width: 75px
-	height: 25px
+	height: 20px
 	background: red
 	border-radius: 13px
 	border: 1px solid #000 
 	&__wrap
-	left: 25%
-	top: -5px
+	left: 30%
+	top: -15px
 	position: absolute
 	&__frontside
-		transform: rotate(-120deg)
+		transform: rotate(-130deg)
 	&__backside
-		transform: rotate(-160deg)
-		left: 18%
+		transform: rotate(-170deg)
+		top: -10px
+		left: 20%
 
 .shell
 	background: red
@@ -41,22 +42,27 @@
 	width: 50px
 	height: 10px
 	background: #000
+	position: absolute
 	&__wrap
-		z-index: 2
-		left: -20px
-		bottom: 30%
-		position: absolute
+		left: -15px
+		bottom: 35%
+		position: relative
+	&__1
+		transform: rotate(40deg)
+	&__3
+		transform: rotate(-40deg)
 	
 .eyebrow
-	position: relative
-	&__left
-		position: absolute
-		width: 70%
-		height: 50px
-		// background: teal
-	
-	&__right
-		position: absolute
-		width: 70%
-		height: 50px
-		// background: red
+	width: 80px
+	height: 20px
+	background: #000
+	position: absolute
+	transform: rotate(10deg)
+	top: 60px
+	left: 20px
+	&__wrap
+		position: relative
+	&-right
+		transform: rotate(-15deg)
+
+
