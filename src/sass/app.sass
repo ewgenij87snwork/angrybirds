@@ -5,16 +5,58 @@
 @import layouts
 @import main
 
+
+.bird
+	position: relative
+	width: 200px
+	height: 200px
+	margin: 20px auto
+	
+.forelock
+	width: 75px
+	height: 25px
+	background: red
+	border-radius: 13px
+	border: 1px solid #000 
+	&__wrap
+	left: 25%
+	top: -5px
+	position: absolute
+	&__frontside
+		transform: rotate(-120deg)
+	&__backside
+		transform: rotate(-160deg)
+		left: 18%
+
+.shell
+	background: red
+	width: 100%
+	height: 100% 
+	border: 1px solid #000
+	border-radius: 50%
+	z-index: 1
+	position: relative
+
+.tail
+	width: 50px
+	height: 10px
+	background: #000
+	&__wrap
+		z-index: 2
+		left: -20px
+		bottom: 30%
+		position: absolute
+	
 .eyebrow
 	position: relative
 	&__left
 		position: absolute
 		width: 70%
 		height: 50px
-		background: teal
+		// background: teal
 	
 	&__right
 		position: absolute
 		width: 70%
 		height: 50px
-		background: red
+		// background: red
